@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Our main aim is to provide you healthy food which is good for your health as well as tasty."
+    />
+    <title>The Healthy Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <img src="logo.jpg" alt="logo here" />
+        <h1>The Healthy Restaurant</h1>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Branches</a></li>
+            <li><a href="#">Franchise Inquiry</a></li>
+            <li><a href="#">Our Products</a></li>
+            <li><img src="search.png" alt="search icon" /></li>
+          </ul>
+        </div>
+        <button class="toggle">Book Table</button>
+      </header>
+      <hr />
+      <main>
+        <video src="backgroundvideo.mp4" muted loop autoplay></video>
+        <div class="text">
+          <marquee behavior="scroll" direction="left">Note: Due to COVID-19, only pre-booked entries are allowed. Kindly book your table now.</marquee>
+          <h2 id="welcome">Welcome to</h2>
+          <h2 id="name">The healthy restaurant</h3> 
+          <p>
+            Health is Wealth. But don't compromise on taste. So, we provide your
+            favourite food items with a healthy twist. So, you can eat without
+            any guilt.
+          </p>
+          <button>Find Restaurant</button>
+        </div>
+      </main>
+  </section>
+  <section class="showcase2"> 
+  <div class="about">
+    <h3>About us</h3>
+      <p>The world they say, steps aside for the man, who knows where he is going. The Healthy Group was founded in 1980 by the visionary Dr. Adityasinh Chauhan. He opened the company’s first flagship restaurant on Ashram Road, Ahmedabad. The rest is history.
+
+        The Healthy Restaurants are nonpareil in style and cuisine. Authentic style culinary preparations, the ethnic table layout and the excellent service add to the USP of this Restaurant Chain.</p>
+  </div>
+  <br>
+  </section>
+  <section class="showcase3">
+  <div class="info">
+     <div id="info1"><h2>Contact us</h2>
+      <p>
+        Address: 17th Floor, The Healthy Restaurant, Taj Skyline, Sindhubhavan
+        Road, Ahmedabad 380058
+      </p>
+      <p>Email: info@thehealthyrestaurant.com</p>
+      <p>
+        Phone: +91 79-40810000 
+        <br>Franchise Enquiry: +91 98200 27503 | +91 97099
+        80259
+      </p></div>
+     <div id="info2"><h2>help</h2>
+      <h3>Order Tracking</h3>
+      <h3>FAQ's</h3>
+      <h3>Terms & Conditions</h3></div>
+     <div id="info3"><h2>follow us</h2>
+      <ul class="social">
+        <li><img src="facebook.png" alt="facebook icon" /></li>
+        <li><img src="instagram.png" alt="instagram icon" /></li>
+        <li><img src="twitter.png" alt="twitter icon" /></li>
+      </ul></div>
+      
+      
+      
+    </div>
+  </section>
+  <div class="form">
+    <form>
+     
+      <input type="text" name="name" id="fullname" placeholder="Enter your Full Name">
+      
+      <input type="number" name="phone" id="phone" placeholder="Enter your Phone">
+      
+      <input type="number" name="people" id="people" placeholder="Enter number of people">
+      
+      <input type="time" name="time" id="time" placeholder="Enter Time">
+      <button class="btn">Submit</button>
+  </form>
+  </div>
+  <script>
+    const menuToggle = document.querySelector(".toggle");
+    const showcase = document.querySelector(".showcase");
+
+    menuToggle.addEventListener("click", () => {
+      menuToggle.classList.toggle("active");
+      showcase.classList.toggle("active");
+    });
+  </script>
+  </body>
+</html>
